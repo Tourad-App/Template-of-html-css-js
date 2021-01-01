@@ -1,0 +1,338 @@
+body
+{
+    margin:0px;
+    padding:0px;
+/*    height:5000px;*/
+}
+
+
+/*   Start En Header  */
+
+
+.header
+{
+    width:100%;
+    height:400px;
+    background:#764e7f;
+    
+}
+ .container
+{
+    width:1150px;
+    margin:auto;
+}
+.header .heading
+{
+    width:50%;
+    float:left;
+    margin-top:100px;
+    border-right:1px solid #ccc;
+}
+.header .heading  p
+{
+    width:62%;
+    font-size:28px;
+    color:white;
+    font-weight:bold;
+    line-height:1.8;
+}
+.header .heading span
+{
+    text-transform:uppercase;
+    font-weight:bold;
+}
+.header .heading span:hover
+{
+ color:#05a5b5;   
+cursor:pointer;
+}
+.header .lorem
+{
+    float:left;
+    color:white;
+    width:44%;
+    margin-top:100px;
+    padding-left:5%;
+}
+
+.header .lorem p
+{
+    width:90%;
+    font-size:20px;
+    color:#ddd;
+    font-weight:bold;
+    line-height:1.8;
+}
+.header .lorem button
+{
+    background:none;
+    border:0;
+    color:white;
+    font-size:18px;
+    text-transform:uppercase;
+    cursor:pointer;
+    background-color:#2cefa7;
+    outline:none;
+    padding:10px;
+    width:200px;
+    border-radius: 20px;
+}
+
+/*   Start En   Magna   */
+
+
+.magna 
+{
+    width:100%;
+    height:350px;
+    border-bottom:2px solid #ddd;
+    padding-top:50px;
+}
+.learn
+{
+    width:50%;
+    float:left;
+    border-right:1px solid #ddd;
+}
+.learn h2
+{
+    color:#505050;
+    font-family: Tahoma;
+    text-decoration: underline;
+}
+.learn p
+{
+    line-height:1.9;
+    color:#888;
+    font-family: Tahoma;
+}
+.learn button
+{
+    background:none;
+    border:0px;
+    padding:10px;
+    border-radius:50px;
+    outline:none;
+    width:200px;
+    text-transform:uppercase;
+    border:1px solid #ddd;
+    cursor:pointer;
+    font-family:Tahoma; 
+    font-size:17px;
+    color:#777;
+}
+
+.ipsum
+{
+    width:45%;
+    float:left;
+    margin-left:4%;
+    visibility:hidden;
+    padding-top:10px;
+}
+.ipsum p
+{
+    line-height:2;
+    color:#666;
+    font-weight:bold;
+    font-family: Tahoma;
+}
+.ipsum i
+{
+    color:#2cefa7;
+    margin-right:25px;
+}
+
+/*   ipsum   */
+
+
+
+.main
+{
+    width:100%;
+    height: auto;
+    background-color:#ffffff;
+    padding-bottom:50px;
+    padding-top:50px;
+    overflow:hidden;
+/*    #ddd*/
+}
+
+.main .hide
+{
+    width: 100%;
+    height:100%;
+    background-color:#f1f0f0;
+    padding:15px;
+     overflow:hidden;
+}
+.main .hide .img
+{
+    width:40%;
+    float:left;
+    cursor:pointer;
+}
+
+.main .hide .content
+{
+    width:50%;
+    float:left;
+    padding-left:30px;
+    padding-top:90px;
+}
+.main .hide .content h2
+{
+    color:#777;
+    font-size:23px;
+    font-family:Tahoma;
+    text-decoration: underline;
+}
+.main .hide .content p
+{
+    color:#888;
+    line-height:2;
+}
+.main .hide .content button
+{
+    border:1px solid #888;
+    background:none;
+    color:#777;
+    font-family:Tahoma;
+    text-transform:uppercase;
+    padding:12px;
+    cursor:pointer;
+    font-weight:bold;
+    width:200px;
+    border-radius:50px;
+    font-size:18px;
+    outline:none;
+}
+.clear
+{
+    clear: both;
+}
+
+/*   Malsuada  */
+
+.Malsuada
+{
+    width:100%;
+    height:auto;
+    padding-top:30px;
+    padding-bottom:40px;
+    background-color:#f1f0f0;
+    overflow:hidden;
+/*    border-bottom:2px solid #ddd;*/
+}
+.Malsuada .forms
+{
+    width:50%;
+    float:left;
+    border-right:1px solid #888;
+}
+.Malsuada .forms h2
+{
+    font-family:Tahoma;
+    font-weight:bold;
+}
+.Malsuada .forms p
+{
+    line-height:2;
+    font-weight:bold;
+    color:#666;
+}
+.Malsuada .forms input[type=text],input[type="email"]
+{
+    width:250px;
+    height:35px;
+    padding-left:15px;
+    outline:none;
+    text-transform: capitalize;
+    font-size:18px;
+    margin-bottom:10px;
+}
+.Malsuada .forms textarea
+{
+    width:515px;
+    height:180px;
+    outline:none;
+    padding:15px;
+    font-size:18px;
+    text-transform:capitalize;
+}
+.Malsuada .forms input[type="submit"]
+{
+    width:200px;
+    padding:12px 10px;
+    text-align:center;
+    background:none;
+    border:1px solid #777;
+    background-color:#fff;
+    border-radius:50px;
+    outline:none;
+    margin-top:10px;
+    cursor:pointer;
+    color:#777;
+    text-transform:uppercase;
+}
+.Malsuada .links
+{
+    float:left;
+    margin-left:50px;
+    margin-top:50px;
+}
+.Malsuada .links p
+{
+    line-height:2.5;
+    color: #6d6d6d;
+    font-family:Tahoma;
+}
+.Malsuada .links p i
+{
+    color: #121312;
+    margin-right:25px;
+    cursor:pointer;
+}
+
+
+/*         fouter      */    
+
+
+.fouter
+{
+    width:100%;
+    height:100px;
+    padding-bottom:20px;
+    overflow:hidden;
+}
+.fouter p
+{
+    line-height:100px;
+    text-align:center;
+    color:#000;
+    font-size:23px;
+    font-family:Tahoma;
+}
+.fouter p span
+{
+    color:#05a5b5;
+   font-size:23px;
+    text-decoration:underline;
+     cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
